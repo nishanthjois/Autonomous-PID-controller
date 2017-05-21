@@ -41,6 +41,9 @@ Project video:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/w_UpFW2HjVs/0.jpg)](http://www.youtube.com/watch?v=w_UpFW2HjVs)
 
+## Pending/future work:
+1. Make the car run smooth.
+2. Tune parameters using twiddle (https://www.youtube.com/watch?v=2uQ2BSzDvXs), SGD etc.,.
 
 ## Dependencies
 
