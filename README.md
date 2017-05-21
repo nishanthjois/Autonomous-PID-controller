@@ -31,13 +31,13 @@ If the system must remain online, one tuning method is to first set K_i and K_d 
 
 (Source: https://en.wikipedia.org/wiki/PID_controller)
 
-#### Steps used tune parameters PID were manual in this project and were as follows:
+#### Steps used to tune parameters 'PID' were manual in this project and were as follows:
 1. Set I and D values to zero and tune P approximately so that car drives parallel to track for sometime (car will oscillate - but we will fix it in next step)
 2. Now tune D value to reduce ossicllation - we will get stable behavior now.
 3. Just add a small value of I to keep car close to center of the road.
 4. Repeat above step several times to find best parameters (ex:  pid.Init(0.22, 0.0001, 4.5))
 
-Project video: https://youtu.be/w_UpFW2HjVs
+Project video:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/w_UpFW2HjVs/0.jpg)](http://www.youtube.com/watch?v=w_UpFW2HjVs)
 
